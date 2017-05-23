@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_date_from"
+        android:icon="@drawable/ic_action_calendar"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/menu_date_from">
+    </item>
+
+    <item
+        android:id="@+id/menu_date_to"
+        android:icon="@drawable/ic_action_calendar"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/menu_date_to">
+    </item>
+    <item
+        android:id="@+id/menu_average"
+        android:checkable="true"
+        android:title="@string/menu_average"
+        android:icon="@drawable/ic_action_off"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:title="@string/menu_refresh"
+        android:id="@+id/menu_news_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="@string/menu_settings"
+        android:id="@+id/menu_settings"
+        app:showAsAction="never|withText"/>
+</menu>

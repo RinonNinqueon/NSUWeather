@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="drawerListBackgroundColor" format="reference" />
+    <attr name="drawerListTextColor" format="reference" />
+    <attr name="themeName" format="string"/>
+
+    <declare-styleable name="SeekBarPreference">
+        <attr name="prefix" format="string"/>
+        <attr name="postfix" format="string"/>
+        <attr name="postfix_plurals" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="minutes" value="1"/>
+            <enum name="days" value="2"/>
+        </attr>
+        <attr name="minimum" format="integer"/>
+        <attr name="maximum" format="integer"/>
+    </declare-styleable>
+</resources>

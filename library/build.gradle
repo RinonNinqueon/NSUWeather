@@ -1,0 +1,73 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.1'
+    }
+}
+apply plugin: 'com.android.library'
+
+dependencies {
+}
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "25.0.1"
+}
+
+// Publish to maven repository
+apply plugin: 'maven'
+
+task libJar(type: Jar) {
+    from fileTree(dir: 'build/classes/release')
+}
+
+task sourcesJar(type: Jar) {
+    classifier 'sources'
+    from android.sourceSets.main.java.srcDirs
+}
+
+artifacts {
+    archives libJar
+    archives sourcesJar
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "file://$buildDir/mvnRepo/")
+
+            pom.project {
+                artifactId = 'android-i18n-plurals'
+                name = 'android-i18n-plurals'
+                packaging = 'jar'
+                description = 'Alternative handling of Android Quantity Strings (Plurals)'
+                url 'https://code.google.com/p/android-i18n-plurals/'
+
+                scm {
+                    url 'git:git@github.com:populov/android-i18n-plurals.git'
+                    connection 'scm:git:git@github.com:populov/android-i18n-plurals.git'
+                    developerConnection 'scm:git:git@github.com:populov/android-i18n-plurals.git'
+                }
+
+                licenses {
+                    license {
+                        name = 'The MIT License (MIT)'
+                        url 'http://opensource.org/licenses/MIT'
+                        distribution 'repo'
+                    }
+                }
+
+                developers {
+                    developer {
+                        id 'MarinaSeppius'
+                        name = 'Marina Seppius'
+                        email 'MarinaSeppius@gmail.com'
+                    }
+                }
+            }
+        }
+    }
+}
+

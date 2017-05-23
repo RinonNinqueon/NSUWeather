@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_category_net">Сеть</string>
+    <string name="settings_category_update">Обновление</string>
+    <string name="settings_category_data">Данные</string>
+
+    <string name="settings_application_theme" translatable="false">settings_application_theme</string>
+    <string name="settings_application_theme_title">Тема</string>
+    <string name="settings_application_theme_hint">Цветовая тема приложения</string>
+    <string name="settings_application_theme_dialog_title">Выберите тему</string>
+    <string-array name="settings_application_theme_list">
+        <item>Светлая</item>
+        <item>Тёмная</item>
+    </string-array>
+    <string-array name="settings_application_theme_list_values" translatable="false">
+        <item>settings_application_theme_light</item>
+        <item>settings_application_theme_dark</item>
+    </string-array>
+    <string name="settings_application_theme_light" translatable="false">settings_application_theme_light</string>
+    <string name="settings_application_theme_dark" translatable="false">settings_application_theme_dark</string>
+    <string name="settings_application_theme_default" translatable="false">@string/settings_application_theme_light</string>
+
+    <string name="settings_update_on_start" translatable="false">settings_update_on_start</string>
+    <string name="settings_update_on_start_title">Обновлять при старте</string>
+    <string name="settings_update_on_start_hint">Обновлять температуру при старте приложения</string>
+    <bool name="settings_update_on_start_default">false</bool>
+
+    <string name="settings_update_enable" translatable="false">settings_update_enable</string>
+    <string name="settings_update_enable_title">Обновлять в фоне</string>
+    <string name="settings_update_enable_hint">Загружать текущуу температуру при закрытом приложении</string>
+    <bool name="settings_update_enable_default">false</bool>
+
+    <string name="settings_update_period" translatable="false">settings_update_period_seek</string>
+    <string name="settings_update_period_title">Период обновления</string>
+    <string name="settings_update_period_hint">Как часто обновлять в фоне</string>
+    <string name="settings_update_period_dialog_title">Введите период обновления в минутах.</string>
+    <integer name="settings_update_period_default">15</integer>
+    <integer name="settings_update_period_minimum">1</integer>
+    <integer name="settings_update_period_maximum">360</integer>
+
+    <string name="settings_notification_enable" translatable="false">settings_notification_enable</string>
+    <string name="settings_notification_enable_title">Уведомления</string>
+    <string name="settings_notification_enable_hint">Показывать уведомления</string>
+    <bool name="settings_notification_enable_default">false</bool>
+
+    <string name="settings_clear_database" translatable="false">settings_clear_database</string>
+    <string name="settings_clear_database_title">Очистить кэш</string>
+    <string name="settings_clear_database_hint">Удалить всю температуру</string>
+    <string name="settings_clear_database_warning">Вы уверены?</string>
+    <string name="settings_clear_database_warning_yes">Да</string>
+    <string name="settings_clear_database_warning_no">Нет</string>
+
+</resources>

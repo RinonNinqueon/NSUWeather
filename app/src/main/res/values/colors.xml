@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="drawerListBackgroundColor.Light">#ffffff</color>
+    <color name="drawerListTextColor.Light">#000000</color>
+    <color name="colorPrimary.Light">#3f51b5</color>
+    <color name="colorPrimaryDark.Light">#303F9F</color>
+
+    <color name="drawerListBackgroundColor.Dark">#111</color>
+    <color name="drawerListTextColor.Dark">#ffffff</color>"
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Dialogs -->
+    <dimen name="dialog_margin_top">16dp</dimen>
+    <dimen name="dialog_margin_left">4dp</dimen>
+    <dimen name="dialog_margin_right">4dp</dimen>
+    <dimen name="dialog_margin_bottom">4dp</dimen>
+    <!-- List entry -->
+    <dimen name="list_entry_title_font_size">20sp</dimen>
+    <dimen name="list_entry_description_font_size">16sp</dimen>
+    <dimen name="list_entry_link_font_size">14sp</dimen>
+    <dimen name="list_entry_date_font_size">12sp</dimen>
+    <!-- Feed List -->
+    <dimen name="list_horizontal_margin">16dp</dimen>
+    <!-- Drawer -->
+    <dimen name="drawer_width">240dp</dimen>
+    <dimen name="drawer_divider_height">0dp</dimen>
+    <dimen name="drawer_item_horizontal_margin">16dp</dimen>
+    <!-- Progressbar -->
+    <dimen name="progressbar_horizontal_margin">10dp</dimen>
+    <dimen name="progressbar_vertical_margin">10dp</dimen>
+    <integer name="progressbar_maximum">100</integer>
+    <!-- SeekBarPreference -->
+    <dimen name="seek_bar_preference_text_size">24sp</dimen>
+</resources>

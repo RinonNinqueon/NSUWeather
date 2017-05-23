@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_no_internet_connection">Отсутствует соединение.
+    Проверьте ваше подключение и повторите попытку.</string>
+    <string name="error_only_wifi">Включен режим работы "только WiFi".\n
+    Включите Wi-Fi или измените режим в настроках.</string>
+    <string name="error_wrong_url">Недействительный URL.</string>
+    <string name="error_parse">Недействительный XML.</string>
+    <string name="error_document_type">Неподдерживаемый формат.</string>
+    <string name="error_database">Ошибка базы данных.</string>
+    <string name="error_io">Ошибка ввода-вывода.</string>
+    <string name="error_external_storage">Внешнее знанилище недоступно.</string>
+    <string name="error_unchecked">Запустите обновление, чтобы проверить.</string>
+    <string name="error_connection">Ошибка соединения.</string>
+    <string name="error_no_error">Ошибок нет.</string>
+    <string name="error">Ошибка.</string>
+</resources>

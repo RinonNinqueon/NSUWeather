@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:components="http://schemas.android.com/apk/lib/rinon.ninqueon.nsuweather.view.components">
+    <PreferenceCategory
+        android:title="@string/settings_category_net">
+        <CheckBoxPreference
+            android:title="@string/settings_update_on_start_title"
+            android:summary="@string/settings_update_on_start_hint"
+            android:key="@string/settings_update_on_start"
+            android:defaultValue="@bool/settings_update_on_start_default"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_category_update">
+        <CheckBoxPreference
+            android:title="@string/settings_update_enable_title"
+            android:summary="@string/settings_update_enable_hint"
+            android:key="@string/settings_update_enable"
+            android:defaultValue="@bool/settings_update_enable_default"/>
+        <!--suppress AndroidElementNotAllowed -->
+        <rinon.ninqueon.nsuweather.view.components.SeekBarPreference
+            android:title="@string/settings_update_period_title"
+            android:summary="@string/settings_update_period_hint"
+            android:key="@string/settings_update_period"
+            android:defaultValue="@integer/settings_update_period_default"
+            components:postfix_plurals="minutes"
+            components:minimum="@integer/settings_update_period_minimum"
+            components:maximum="@integer/settings_update_period_maximum"
+            android:dialogTitle="@string/settings_update_period_dialog_title"
+            style="@style/AppPreference.DialogPreference" />
+        <CheckBoxPreference
+            android:title="@string/settings_notification_enable_title"
+            android:summary="@string/settings_notification_enable_hint"
+            android:key="@string/settings_notification_enable"
+            android:defaultValue="@bool/settings_notification_enable_default"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_category_data">
+        <!--suppress AndroidElementNotAllowed -->
+        <Preference android:title="@string/settings_clear_database_title"
+                    android:summary="@string/settings_clear_database_hint"
+                    android:key="@string/settings_clear_database"/>
+    </PreferenceCategory>
+</PreferenceScreen>

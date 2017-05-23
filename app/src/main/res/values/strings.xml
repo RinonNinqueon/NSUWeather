@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Погода НГУ</string>
+    <string name="menu_open">Открыть меню</string>
+    <string name="menu_close">Закрыть меню</string>
+    <string name="dialog_channel_button_close">Закрыть</string>
+    <string name="dialog_channel_error">Ошибка</string>
+    <string name="temperature_near_nsu">Температура около НГУ</string>
+    <string name="temperature_now">Сейчас:&#160;</string>
+    <string name="temperature_c_degree">°C</string>
+    <string name="loading">Загрузка…</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_refresh">Обновить</string>
+    <string name="menu_average">Средн.</string>
+    <string name="menu_cancel_button">Отмена</string>
+    <string name="menu_date_from">От&#160;</string>
+    <string name="menu_date_to">До&#160;</string>
+
+    <string-array name="menu_items">
+        <item>3 Дня</item>
+        <item>10 Дней</item>
+        <item>Месяц</item>
+        <item>Период</item>
+    </string-array>
+</resources>

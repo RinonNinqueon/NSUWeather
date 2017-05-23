@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="graphDayLineColor">#646464</color>
+    <color name="graph6HourLineColor">#808080</color>
+    <color name="graphHourLineColor">#eeeeee</color>
+    <color name="graph5DegreeLineColor">#8080ff</color>
+    <color name="graphDegreeLineColor">#c0c0ff</color>
+    <color name="graph0DegreeLineColor">#000000</color>
+    <color name="graphLineColor">#ff0000</color>
+
+    <integer name="graphDayLineWidth">3</integer>
+    <integer name="graph6HourLineWidth">2</integer>
+    <integer name="graphHourLineWidth">1</integer>
+    <integer name="graph5DegreeLineWidth">1</integer>
+    <integer name="graphDegreeLineWidth">1</integer>
+    <integer name="graph0DegreeLineWidth">2</integer>
+    <integer name="graphLineWidth">2</integer>
+
+    <integer name="graphTemperatureMargin">1</integer>
+    <integer name="graphMarginLeft">17</integer>
+    <integer name="graphMarginTop">7</integer>
+    <integer name="graphMarginRight">0</integer>
+    <integer name="graphMarginBottom">17</integer>
+
+    <integer name="graphDateTextMarginBottom">2</integer>
+    <integer name="graphDateTextMarginLeft">2</integer>
+
+    <dimen name="graphDateTextSize">15sp</dimen>
+    <dimen name="graphTemperatureTextSize">10sp</dimen>
+</resources>
